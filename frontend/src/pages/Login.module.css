@@ -1,0 +1,98 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+  padding: 40px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 48px 40px;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  border: 1px solid #f1f5f9;
+}
+
+.card h2 {
+  margin: 0 0 36px 0;
+  color: #0f172a;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.card input {
+  width: 100%;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+  background: #fafbfc;
+}
+
+.card input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.08);
+}
+
+.card button[type="submit"] {
+  width: 100%;
+  padding: 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  margin-bottom: 16px;
+}
+
+.card button[type="submit"]:hover {
+  background: #2563eb;
+}
+
+.card button[type="submit"]:active {
+  transform: translateY(1px);
+}
+
+.card button[type="button"] {
+  width: 100%;
+  padding: 14px;
+  background: transparent;
+  color: #475569;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card button[type="button"]:hover {
+  border-color: #cbd5e1;
+  background: #f8fafc;
+}
+
+.error {
+  background: #fef7f6;
+  color: #dc2626;
+  padding: 14px 16px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  border-left: 4px solid #dc2626;
+  font-size: 14px;
+  line-height: 1.4;
+}
