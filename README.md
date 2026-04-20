@@ -1,46 +1,33 @@
-# SmartSpend - Minimal Expense Tracker
+# SmartSpend AI - Expense Tracker SaaS
 
-Full-stack expense tracker built with:
-- Backend: Node.js + Express + MongoDB + JWT
-- Frontend: React + Vite + Recharts
+## Tech Stack
+```
+Frontend: React 19 + Vite + Recharts + Tailwind
+Backend: Express + MongoDB + JWT + Mongoose
+Deploy: Vercel + Render
+```
+
+## Local Setup
+```
+cd backend && npm install && npm run dev
+cd frontend && npm install && npm run dev
+```
 
 ## Features
-- User signup/login (JWT + bcrypt)
-- Add/edit/delete expenses
-- Expense categories (Food/Travel/Bills/Misc)
-- Dashboard with total spend + pie chart
-- Smart insights (food >30% suggestion)
+- JWT Auth (Email + Google)
+- Full CRUD Expenses
+- Dashboard + Pie Charts
+- AI Spending Insights
+- Responsive SaaS UI
 
-## Quick Start
-```bash
-# Backend
-cd backend
-npm install
-npm run dev
+## Live Demo
+Frontend: [link]
+Backend: [link]
 
-# Frontend (new terminal)
-cd frontend
-npm install
-npm run dev
+## Production
+```
+Render: MONGO_URI + JWT_SECRET
+Vercel: VITE_API_URL → Render URL
 ```
 
-Open http://localhost:5173
-
-## Test Credentials
-```
-Email: test@example.com
-Password: password123
-```
-
-## Deployment
-**Backend (Render)**: `npm run dev`
-**Frontend (Vercel)**: `npm run build && vercel`
-
-## Architecture
-```
-backend/
-  controllers/  routes/  models/  middleware/
-frontend/
-  components/  pages/  services/
-```
-
+**Production Ready MERN SaaS** ✅
