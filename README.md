@@ -1,5 +1,11 @@
 # SmartSpend AI - Expense Tracker SaaS
 
+## Deployed Links
+```
+Frontend : https://smart-spend-9b8y.vercel.app/
+Backend : https://smartspend-1-aa66.onrender.com/
+```
+
 ## Tech Stack
 ```
 Frontend: React 19 + Vite + Recharts + Tailwind
